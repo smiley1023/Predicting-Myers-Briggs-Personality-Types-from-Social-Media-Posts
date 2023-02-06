@@ -1,4 +1,4 @@
-# Predicting-Myers-Briggs-Personality-Types-from-Social-Media-Posts
+# Predicting Myers-Briggs Personality Types from Social Media Posts
 The Myers-Briggs Type Indicator (MBTI) is a widely used psychological assessment tool that aims to classify individuals into one of 16 different personality types. The tool is based on four axes of personality traits, including Introversion/Extroversion (I/E), Intuition/Sensing (N/S), Feeling/Thinking (F/T), and Judging/Perceiving (J/P). These four traits are combined to form a four-letter code that defines an individual's personality type. For example, someone who scores higher on Introversion, Sensing, Thinking, and Judging would be classified as an ISTJ personality type.
 
 The project goal is to use social media posts to determine the personality type of different users and to predict the personality type of one individual, Neelu Konkimalla. The project makes use of Python and Jupyter notebooks and employs machine learning algorithms such as Random Forest Classifier and XGBoost.
