@@ -1,1 +1,10 @@
 # Predicting-Myers-Briggs-Personality-Types-from-Social-Media-Posts
+The Myers-Briggs Type Indicator (MBTI) is a widely used psychological assessment tool that aims to classify individuals into one of 16 different personality types. The tool is based on four axes of personality traits, including Introversion/Extroversion (I/E), Intuition/Sensing (N/S), Feeling/Thinking (F/T), and Judging/Perceiving (J/P). These four traits are combined to form a four-letter code that defines an individual's personality type. For example, someone who scores higher on Introversion, Sensing, Thinking, and Judging would be classified as an ISTJ personality type.
+
+The project goal is to use social media posts to determine the personality type of different users and to predict the personality type of one individual, Neelu Konkimalla. The project makes use of Python and Jupyter notebooks and employs machine learning algorithms such as Random Forest Classifier and XGBoost.
+
+The dataset used in the project was obtained from Kaggle and contains information from 8,675 subjects. It consists of two columns: "type" which indicates the subject's MBTI code and "posts" which includes the subject's 50 most recent posts on PersonalityCafe, an online forum focusing on personality types. The 16 MBTI codes are: 'ENFJ', 'ENFP', 'ENTJ', 'ENTP', 'ESFJ', 'ESFP', 'ESTJ', 'ESTP', 'INFJ', 'INFP', 'INTJ', 'INTP', 'ISFJ', 'ISFP', 'ISTJ', and 'ISTP.'
+
+Exploratory data analysis reveals that the dataset is unbalanced, with some personality types having more data than others. The most common personality type is INFP (Introvert, Intuition, Feeling, Perceiving). The word cloud visualization technique showed that users who comment on social media more frequently are more introverted, perceptive, and emotional.
+
+The model's accuracy was evaluated using the Random Forest Classifier and XGBoost algorithms, with the results indicating the accuracy of each personality type. However, the challenges faced in this project include unevenly distributed data, the lack of consideration for website links in the training algorithm, and the limitations of the python predefined stopwords library.
